@@ -1,0 +1,10 @@
+<h1>Doble parámetro</h1>
+
+@if(numero){
+    <h2 style="color:blue">El doble del número {{numero}} es {{doble}}</h2>
+}@else {
+    <h2 style="color:red">No hemos recibido parámetro</h2>
+}
+
+<button (click)="goToHome(null)">Home</button>
+<button (click)="goToHome(10)">Doble de 10</button>

@@ -7,6 +7,7 @@ import { MusicaComponent } from './components/musica-component/musica-component'
 import { NotFoundComponent } from './components/not-found-component/not-found-component';
 import { routing, appRoutingComponent } from './app.routing';
 import { MenuComponent } from './components/menu-component/menu-component';
+import { NumeroDoble } from './components/numero-doble/numero-doble';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { MenuComponent } from './components/menu-component/menu-component';
     MusicaComponent,
     NotFoundComponent,
     MenuComponent,
+    NumeroDoble,
   ],
   imports: [BrowserModule, routing],
   providers: [provideBrowserGlobalErrorListeners(), appRoutingComponent],
